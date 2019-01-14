@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LottryPlan - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/LottryPlan.res" /d "NDEBUG" "Z:\RamDisk\Github\PC\LotteryPlan\LottryPlan.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/LottryPlan.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\RamDisk\Github\PC\LotteryPlan\LottryPlan.cpp"
+"Z:\RamDisk\Github\PC\LotteryPlan\LottryPlanDlg.cpp"
+"Z:\RamDisk\Github\PC\Share\HyperLink.cpp"
+"Z:\RamDisk\Github\PC\Share\SortListCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/LottryPlan.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\RamDisk\Github\PC\LotteryPlan\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/LotPlan.pdb" /machine:I386 /out:"Release/LotPlan.exe" 
+.\Release\LottryPlan.obj
+.\Release\LottryPlanDlg.obj
+.\Release\StdAfx.obj
+.\Release\HyperLink.obj
+.\Release\SortListCtrl.obj
+.\Release\LottryPlan.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LottryPlan.cpp
+LottryPlanDlg.cpp
+HyperLink.cpp
+SortListCtrl.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LotPlan.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
